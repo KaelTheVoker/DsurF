@@ -1,0 +1,46 @@
+{
+  "name": "dsurf",
+  "version": "1.0.0",
+  "description": "CLI-утилита для сбора содержимого файлов проекта в один текстовый файл",
+  "main": "dist/index.js",
+  "bin": {
+    "dsurf": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "cli",
+    "codebase",
+    "scan",
+    "export",
+    "files",
+    "txt"
+  ],
+  "author": "KaelTheVoker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaelTheVoker/dsurf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KaelTheVoker/dsurf/issues"
+  },
+  "homepage": "https://github.com/KaelTheVoker/dsurf#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
