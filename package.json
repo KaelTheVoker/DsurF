@@ -1,7 +1,7 @@
 {
   "name": "dsurf",
   "version": "1.0.0",
-  "description": "CLI-утилита для сбора содержимого файлов проекта в один текстовый файл",
+  "description": "CLI tool that collects the entire codebase (or selected directories) into a single, LLM-friendly .txt file — perfect for sharing full project context with AI models.",
   "main": "dist/index.js",
   "bin": {
     "dsurf": "dist/cli.js"
@@ -20,7 +20,8 @@
     "scan",
     "export",
     "files",
-    "txt"
+    "txt",
+    "ai"
   ],
   "author": "KaelTheVoker",
   "license": "MIT",

@@ -1,7 +1,6 @@
 
 import * as fs from 'fs/promises';
 import path from 'path';
-import { scanDir } from './scanDir';
 
 export type File = {
     data: string,
