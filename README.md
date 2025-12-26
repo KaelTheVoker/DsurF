@@ -15,12 +15,12 @@ dsurf solves this by bundling everything into a single, well-formatted text file
 
 ## Installation
 ```
-npm install -g dsurf
+npm install -g @kaelthevoker/dsurf
 ```
 or with pnpm/yarn:
 ```
-pnpm add -g dsurf
-yarn global add dsurf
+pnpm add -g @kaelthevoker/dsurf
+yarn global add @kaelthevoker/dsurf
 ```
 ## Usage
 

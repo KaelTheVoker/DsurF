@@ -1,5 +1,5 @@
 {
-  "name": "dsurf",
+  "name": "@kaelthevoker/dsurf",
   "version": "1.0.0",
   "description": "CLI tool that collects the entire codebase (or selected directories) into a single, LLM-friendly .txt file — perfect for sharing full project context with AI models.",
   "main": "dist/index.js",
